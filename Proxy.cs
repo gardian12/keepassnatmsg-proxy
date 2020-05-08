@@ -3,7 +3,7 @@ using System.Windows.Forms;
 
 namespace KeePassNatMsgProxy
 {
-    public class Proxy
+    public static class Proxy
     {
         [System.Diagnostics.CodeAnalysis.SuppressMessage("Design", "CA1031:Do not catch general exception types", Justification = "<optimization>")]
         public static int Main(string[] args)

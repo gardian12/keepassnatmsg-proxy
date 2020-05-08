@@ -4,7 +4,7 @@ using System.Runtime.Serialization;
 namespace KeePassNatMsgProxy
 {
     /// <summary>
-    /// This a generic exception class used by ProxyBase and all descendants.
+    /// This is a generic exception class used by ProxyBase and all descendants.
     /// </summary>
     [Serializable]
     public class ProxyException : Exception
